@@ -11,7 +11,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * Implements a set of {@see Results}.
+ * Implements a set of {@link Result}.
  */
 public class ResultSet {
 

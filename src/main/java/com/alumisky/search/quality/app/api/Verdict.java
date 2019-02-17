@@ -7,7 +7,7 @@
 package com.alumisky.search.quality.app.api;
 
 /**
- * Defines exact verdicts {@see Validator} can provide for a 
+ * Defines exact verdicts {@link Validator} can provide for a 
  * specific result.
  */
 public enum Verdict {
@@ -46,7 +46,7 @@ public enum Verdict {
     /**
      * Undefined: for some reason the result is undefined and can not be validated.
      * 
-     * This is internal type of the {@see Verdict}.
+     * This is internal type of the {@link Verdict}.
      */
     UNDEFINED
 }

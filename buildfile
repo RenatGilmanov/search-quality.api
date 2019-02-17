@@ -3,6 +3,8 @@ repositories.remote << 'http://repo1.maven.org/maven2'
 require 'buildr/gpg'
 require 'buildr/custom_pom'
 
+THIS_VERSION = '0.1.0'
+
 define 'alumi-quality.api' do
   project.version = '0.1.0'
   project.group = 'com.alumisky'
@@ -13,4 +15,6 @@ define 'alumi-quality.api' do
   
   package :jar
   package(:sources)
+  package(:javadoc)
+
 end

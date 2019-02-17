@@ -7,8 +7,8 @@
 package com.alumisky.search.quality.app.api;
 
 /**
- * Implements a <tt>ValidationResult</tt> provided for the specific {@see Result} 
- * by any implementation of {@see Validator} contract.
+ * Implements a <tt>ValidationResult</tt> provided for the specific {@link Result} 
+ * by any implementation of {@link Validator} contract.
  */
 public class ValidationResult {
     
@@ -20,7 +20,7 @@ public class ValidationResult {
      * Constructs an instance of this class with the specified type, verdict and message.
      * 
      * @param type validation type
-     * @param verdict the {@see Verdict}
+     * @param verdict the {@link Verdict}
      * @param message the detail message
      */    
     public ValidationResult(String type, Verdict verdict, String message) {

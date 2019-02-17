@@ -9,13 +9,13 @@ package com.alumisky.search.quality.app.api;
 /**
  * Defines a high-level contract for the <tt>ScoreFunction</tt>.
  * 
- * The function is used to measure {@see ResultSet} relevance. It is expected 
+ * The function is used to measure {@link ResultSet} relevance. It is expected 
  * to get 0.0 for totally non relevant results and 1.0 for relevant.
  */
 public interface ScoreFunction {
     
     /**
-     * Measures {@ResultSet} relevancy and returns calculated score.
+     * Measures {@link ResultSet} relevancy and returns calculated score.
      * 
      * @param set result set to be measures
      * @return score for the specified result set

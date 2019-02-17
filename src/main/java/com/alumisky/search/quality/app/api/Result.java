@@ -11,7 +11,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * Implements a <tt>result</tt> provided by the {@see Connector} implementation.
+ * Implements a <tt>result</tt> provided by the {@link Connector} implementation.
  */
 public class Result {
     public static final Result EMPTY = new Result();
@@ -114,7 +114,7 @@ public class Result {
     }
 
     /**
-     * Returns the {@see Verdict}, associated with the result.
+     * Returns the {@link Verdict}, associated with the result.
      * 
      * @return result verdict
      */

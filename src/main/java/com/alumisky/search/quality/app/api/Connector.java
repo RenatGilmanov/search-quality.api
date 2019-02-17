@@ -12,7 +12,7 @@ import java.util.List;
  * Defines a high-level <tt>Connector</tt> contract.
  * 
  * Basically, it is all about fetching results from any external source 
- * and converting fetched data into {@Result} representation.
+ * and converting fetched data into {@link Result} representation.
  */
 public interface Connector {
     
