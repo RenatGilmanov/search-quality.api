@@ -13,14 +13,14 @@ package com.alumisky.search.quality.app.api;
 public enum Verdict {
 
     /**
-     * Relevant: the products ranking is completely relevant.
+     * Relevant: the product ranking is completely relevant.
      *
      * This is the best verdict validator can give, and means that the result is
      * exactly right.
      */
     RELEVANT,
     /**
-     * Near: The products rating is not a perfect match, but it is clearly
+     * Near: The product ranking is not a perfect match, but it is clearly
      * reasonable for it to be ranked highly.
      *
      * No one would be surprised that the search query brought back such a
@@ -35,7 +35,7 @@ public enum Verdict {
      */
     MISPLACED,
     /**
-     * Irrelevant: The results have no apparent relationship to the customer’s
+     * Irrelevant: The result has no apparent relationship to the customer’s
      * search.
      *
      * A customer could reasonably conclude that the search engine is off its
